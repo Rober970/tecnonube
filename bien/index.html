@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TecnoNube — Portátiles para trabajar desde cualquier lugar</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.6;
+      color: #1a1a1a;
+      background: #ffffff;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    svg { display: block; }
+    :focus-visible { outline: 3px solid #1a56db; outline-offset: 3px; }
+
+    .container { max-width: 60rem; margin: 0 auto; padding: 0 1rem; }
+
+    .site-header { border-bottom: 1px solid #d1d5db; }
+    .site-header .container {
+      display: flex; align-items: center; justify-content: space-between;
+      padding-top: .75rem; padding-bottom: .75rem;
+    }
+    .icon-button {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 2.75rem; height: 2.75rem;
+      padding: 0; border: 2px solid #1a1a1a; border-radius: 50%;
+      background: #ffffff; color: #1a1a1a; cursor: pointer;
+    }
+    .icon-button:hover { background: #f3f4f6; }
+
+    main.container { padding-top: 1.5rem; padding-bottom: 3rem; }
+    .banner { border-radius: 1rem; }
+    h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1.2; margin: 2rem 0 .75rem; }
+    h2 { font-size: 1.5rem; margin: 0 0 1rem; }
+    .intro { color: #595959; max-width: 40rem; margin: 0; }
+
+    .newsletter {
+      margin-top: 2.5rem; padding: 1.5rem;
+      border: 1px solid #d1d5db; border-radius: 1rem; background: #f9fafb;
+    }
+    .newsletter form { display: grid; gap: 1rem; max-width: 28rem; }
+    .field { display: grid; gap: .25rem; }
+    label, .field-label { font-weight: 600; }
+    input {
+      font: inherit; padding: .625rem .75rem;
+      border: 2px solid #6b7280; border-radius: .5rem; background: #ffffff; color: #1a1a1a;
+    }
+    input::placeholder { color: #595959; }
+    .button {
+      justify-self: start; font: inherit; font-weight: 700;
+      padding: .75rem 1.5rem; border: 0; border-radius: .5rem;
+      background: #1a56db; color: #ffffff; cursor: pointer;
+    }
+    .button:hover { background: #1e429f; }
+
+    .site-footer { background: #f3f4f6; border-top: 1px solid #d1d5db; padding: 1.5rem 0; }
+    .site-footer .container { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between; }
+    .site-footer p { margin: 0; }
+    .social { display: flex; gap: .75rem; list-style: none; margin: 0; padding: 0; }
+    .social a {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 2.75rem; height: 2.75rem; border-radius: .5rem;
+      background: #1a1a1a; color: #ffffff;
+    }
+    .social a:hover { background: #1a56db; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <img src="logo.svg" alt="TecnoNube" width="200" height="48">
+      <button type="button" class="icon-button" aria-label="Buscar">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <img class="banner" src="oferta.svg" alt="20 % de descuento en todos los portátiles" width="960" height="320">
+
+    <h1>Portátiles para trabajar desde cualquier lugar</h1>
+    <p class="intro">En TecnoNube seleccionamos portátiles ligeros, potentes y con batería para toda la jornada. Envío gratis en 24 horas y dos años de garantía en todos los modelos.</p>
+
+    <section class="newsletter">
+      <h2>Suscríbete al boletín</h2>
+      <form action="#" method="get">
+        <div class="field">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email">
+        </div>
+        <button type="submit" class="button">Suscribirme</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 TecnoNube. Tienda ficticia.</p>
+      <ul class="social">
+        <li><a href="https://www.linkedin.com/" aria-label="LinkedIn"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="9" width="4" height="12"/><circle cx="5" cy="4.5" r="2.25"/><path d="M10 9h3.8v1.8c.6-1.1 2-2.1 4-2.1 3.3 0 4.2 2 4.2 5.2V21h-4v-6.1c0-1.5-.4-2.6-1.9-2.6-1.6 0-2.1 1.2-2.1 2.6V21h-4z"/></svg></a></li>
+        <li><a href="https://www.instagram.com/" aria-label="Instagram"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a></li>
+        <li><a href="https://x.com/" aria-label="X (Twitter)"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24"><path d="M3 3h5.5L21 21h-5.5z" fill="currentColor"/><path d="M20 3.5 4 20.5" fill="none" stroke="currentColor" stroke-width="2"/></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320">
+  <rect width="960" height="320" rx="16" fill="#0f3d91"/>
+  <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">
+    <rect x="720" y="105" width="170" height="110" rx="10"/>
+    <path d="M695 235h220l-18 20H713z"/>
+  </g>
+  <text x="56" y="150" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="60" font-weight="800" fill="#ffffff">20 % de descuento</text>
+  <text x="56" y="215" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="38" fill="#ffffff">en todos los portátiles</text>
+</svg>
